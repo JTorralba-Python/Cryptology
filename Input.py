@@ -1,0 +1,5 @@
+UserIDInput = 'Administrator'
+PasswordInput = 'ABC123'
+EMail = 'Administrator@FLAME.Solutions'
+Folder = 'Data'
+Path = 'X:\Data'
