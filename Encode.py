@@ -5,7 +5,7 @@ from cryptography.fernet import Fernet
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 
-Password = b'FLAME'
+Password = b"FLAME"
  
 SALT = os.urandom(16)
 
@@ -18,7 +18,7 @@ KDF = PBKDF2HMAC(
 
 Key = base64.urlsafe_b64encode(KDF.derive(Password))
 
-File = open('Secret.py', 'w')
+File = open("Secret.py", "w")
 File.write("Key = b'" + Key.decode("utf-8") + "'")
 File.close()
 
@@ -26,7 +26,7 @@ import Secret
 
 Codec = Fernet(Secret.Key)
 
-File = open('Output.py', 'w')
+File = open("Output.py", "w")
 
 import Input
 

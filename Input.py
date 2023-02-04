@@ -1,5 +1,5 @@
-UserIDInput = 'Administrator'
-PasswordInput = 'ABC123'
-EMail = 'Administrator@FLAME.Solutions'
-Folder = 'Data'
-Path = 'X:\Data'
+UserIDInput = "User"
+PasswordInput = "Password"
+EMail = "E-Mail@Domain.com"
+Folder = "Folder"
+Path = "C:\Path"
